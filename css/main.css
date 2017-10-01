@@ -178,8 +178,8 @@ h1, h2, h3, h4, h5, h6{font-family:oswald;font-weight:400;}
 .contact-form .form-control{background-color:transparent;border:1px solid #4e595f;height:38px;color:#3d3d3d;}
 .contact-form input:hover,
 .contact-form textarea:hover,
-#contact-submit:hover{border-color:#006699;}
-#contact-submit{border:1px solid #4e595f;padding:12px 0;width:100%;margin:0;}
+#contact-submit1:hover{border-color:#006699;}
+#contact-submit1{border:1px solid #4e595f;padding:12px 0;width:100%;margin:0;}
 .contact-form textarea.form-control{padding:10px;height:120px;}
 .contact-info p{margin-bottom:25px;}
 .con-info{margin-bottom:20px;}
@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6{font-family:oswald;font-weight:400;}
 .error{display:none;padding:10px;color:#D8000C;border-radius:4px;font-size:13px;background-color:#FFBABA;}
 .success{background-color:#006699;border-radius:4px;color:#fff;display:none;font-size:13px;padding:10px;}
 #map-canvas{height:370px;width:100%;}
+.alert{text-align: center;padding:10px;background:#79c879;color:#fff;margin-bottom:10px;display:none;}
 .social-icon{padding:60px 0 35px;}
 .social-icon > ul{text-align:center;}
 .social-icon > ul > li{display:inline-block;margin-right:20px;}

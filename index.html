@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="ars One page parallax responsive HTML Template ">
 
-        <title>ARS | Ankush Sankhe</title>
+        <title>Ankush Sankhe</title>
 
 		<!-- Mobile Specific Meta
 		================================================== -->
@@ -192,7 +192,7 @@
 
                         <div class="col-md-9 col-sm-8 col-xs-12">
                             <div class="about-content text-left">
-                                <h4>Hi, i’m Ankush Sankhe, Experience Web enthusiast from India.</h4><br>
+                                <h4>Hi, i’m Ankush Sankhe, Experience Web Development enthusiast from India.</h4><br>
                                 <p>I graduated from <span class="highlight"><strong>Veermata Jijabai Technological Institute (V.J.T.I) Matunga -Mumbai </strong></span>in 2015 with major in Information Technology. <br><br>
 
 					            My interests are <span class="highlight"><strong>Web Development, Photoshop and creating visually appealing content</strong></span>. I am very passionate about building web apps.
@@ -268,7 +268,7 @@
 
 					<!-- single portfolio item -->
 					<li class="mix photoshop">
-						<a href="https://virtuosars.github.io/ARS_GitHubFinder/" target="_blank" data-largesrc="img/portfolio/3.png" data-title=ARS Github Finder App" data-description="This jQuery/AJAX app fetches user data from the github API and gives a brief info about the user searched.">
+						<a href="https://virtuosars.github.io/ARS_GitHubFinder/" target="_blank" data-largesrc="img/portfolio/3.png" data-title="ARS Github Finder App" data-description="This jQuery/AJAX app fetches user data from the github API and gives a brief info about the user searched.">
 							<img src="img/portfolio/3.png" alt="ars">
 							<div class="hover-mask">
 								<h3>ARS GitHub Finder App</h3>
@@ -503,14 +503,14 @@
 
 					<!-- Contact Form -->
 					<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-						<form id="contact-form" method="post" action="sendmail.php" role="form">
+						<form id="contactform">
 
 							<div class="form-group">
-								<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+								<input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
 							</div>
 
 							<div class="form-group">
-								<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+								<input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
 							</div>
 
 							<div class="form-group">
@@ -521,16 +521,16 @@
 								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
 							</div>
 
-							<div id="mail-success" class="success">
+							<!-- <div id="mail-success" class="success">
 								Thank you. The Mailman is on His Way :)
 							</div>
 
 							<div id="mail-fail" class="error">
 								Sorry, don't know what happened. Try later :(
-							</div>
-
+							</div> -->
+							<div class="alert">Your message has been sent</div>
 							<div id="cf-submit">
-								<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+								<input type="submit" id="contact-submit1" class="btn btn-transparent" value="Submit">
 							</div>
 
 						</form>
@@ -630,6 +630,9 @@
 		<script src="js/wow.min.js"></script>
 		<!-- For video responsive -->
 		<script src="js/jquery.fitvids.js"></script>
+		<!-- Contact js -->
+		<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+		<script src="js/contact.js"></script>
 		<!-- Grid js -->
 		<script src="js/grid.js"></script>
 		<!-- Custom js -->
